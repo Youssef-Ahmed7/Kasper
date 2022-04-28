@@ -344,7 +344,8 @@ header{
  }
  .services .container{
    display: grid;
-   grid-template-columns: repeat(auto-fill,minmax(450px,1fr)) ;
+   grid-template-columns: repeat(auto-fill,minmax(45%,1fr));
+   grid-gap: 2%;
  }
  .services .container div.serve{
    display: flex;
